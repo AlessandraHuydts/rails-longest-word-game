@@ -1,0 +1,8 @@
+<h1>Games#score</h1>
+<p>Find me in app/views/games/score.html.erb</p>
+<% if @dictionary["found"] %>
+<p>Congragulations <%= @word %> is a valid english word! </p>
+<% else %>
+<p>Sorry but <%= @word %> is not a valid english word! </p>
+<% end  %>
+
